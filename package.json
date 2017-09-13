@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-pidev",
   "description": "Shareable eslint config for PI-Webdesign.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
@@ -26,10 +26,16 @@
     "url": "https://github.com/pascaliske/eslint-config-pidev/issues"
   },
   "devDependencies": {
-    "eslint": "^3.8.1"
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.6.1",
+    "eslint-plugin-ava": "^4.2.2",
+    "eslint-plugin-jsdoc": "^3.1.2"
   },
   "peerDependencies": {
-    "eslint": ">=3.8.1"
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.6.1",
+    "eslint-plugin-ava": "^4.2.2",
+    "eslint-plugin-jsdoc": "^3.1.2"
   },
   "main": "index.js"
 }
