@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-pidev",
   "description": "Shareable eslint config for PI-Webdesign.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
