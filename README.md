@@ -41,6 +41,7 @@ Optionally you can also install the following plugins to supercharge your lintin
 ```bash
 yarn add --dev \
 eslint-plugin-ava \
+eslint-plugin-graphql \
 eslint-plugin-jsdoc
 ```
 
@@ -51,6 +52,7 @@ extends: pidev
 parser: babel-eslint
 plugins:
   - ava
+  - graphql
   - jsdoc
 ```
 
