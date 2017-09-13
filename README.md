@@ -4,10 +4,10 @@ Shareable eslint config for the PI-Webdesign projects.
 
 ## Install
 
-First install all needed dependencies:
+First install eslint and babel-eslint:
 
 ```bash
-yarn add babel-eslint eslint eslint-plugin-ava eslint-plugin-jsdoc --dev
+yarn add babel-eslint eslint --dev
 ```
 
 Then install the shareable config itself:
@@ -27,15 +27,32 @@ To use the shareable config, first install it and then, add this to your .eslint
 ```yml
 extends: pidev
 parser: babel-eslint
-plugins:
-  - ava
-  - jsdoc
 ```
 
 *Note: You can omit the `eslint-config-` prefix since it is automatically assumed by ESLint.*
 
 You can override settings from the shareable config by adding them directly into your
 `.eslintrc.yml` file.
+
+## Optional Plugins
+
+Optionally you can also install the following plugins to supercharge your linting:
+
+```bash
+yarn add --dev \
+eslint-plugin-ava \
+eslint-plugin-jsdoc
+```
+
+You also have to add them to your `.eslintrc.yml` file:
+
+```yml
+extends: pidev
+parser: babel-eslint
+plugins:
+  - ava
+  - jsdoc
+```
 
 ## Learn more
 
