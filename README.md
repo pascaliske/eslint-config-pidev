@@ -42,7 +42,8 @@ Optionally you can also install the following plugins to supercharge your lintin
 yarn add --dev \
 eslint-plugin-ava \
 eslint-plugin-graphql \
-eslint-plugin-jsdoc
+eslint-plugin-jsdoc \
+eslint-plugin-react
 ```
 
 You also have to add them to your `.eslintrc.yml` file:
@@ -54,6 +55,7 @@ plugins:
   - ava
   - graphql
   - jsdoc
+  - react
 ```
 
 ## Learn more
