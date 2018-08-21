@@ -1,5 +1,7 @@
 # Shareable ESLint Config for PI-Webdesign
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pascaliske/eslint-config-pidev.svg)](https://greenkeeper.io/)
+
 Shareable eslint config for the PI-Webdesign projects.
 
 ## Install
